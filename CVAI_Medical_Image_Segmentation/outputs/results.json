@@ -1,0 +1,45 @@
+{
+  "U-Net": {
+    "dice": 0.668658190192559,
+    "iou": 0.5022438154250339,
+    "precision": 0.5779281809735444,
+    "recall": 0.7931811610855584,
+    "specificity": 0.9006761076840242,
+    "pixel_accuracy": 0.8849424913194348,
+    "loss": 0.7353048324584961,
+    "parameters": 121177,
+    "training_seconds": 78.64998615400009,
+    "inference_ms_per_image": 1.4607798812534156
+  },
+  "Attention U-Net": {
+    "dice": 0.663429782619388,
+    "iou": 0.49636732435918457,
+    "precision": 0.6317635304136319,
+    "recall": 0.6984379980872928,
+    "specificity": 0.930197824100132,
+    "pixel_accuracy": 0.896276041666657,
+    "loss": 0.7225614881515503,
+    "parameters": 122552,
+    "training_seconds": 88.02484841099977,
+    "inference_ms_per_image": 1.7609479000014971
+  },
+  "uncertainty": {
+    "sample": "cju7ae7bq1f820987toc8si1d.jpg",
+    "passes": 12,
+    "mean_variance": 0.004706935025751591,
+    "max_variance": 0.021319635212421417
+  },
+  "experiment": {
+    "seed": 42,
+    "image_size": 96,
+    "batch_size": 16,
+    "epochs": 10,
+    "split": {
+      "train": 800,
+      "validation": 100,
+      "test": 100
+    },
+    "device": "cpu",
+    "torch_version": "2.14.0+cu130"
+  }
+}
