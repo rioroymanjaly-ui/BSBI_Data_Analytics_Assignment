@@ -1,0 +1,16 @@
+{
+  "note": "Pixel counts for the 100-image seed-42 test set (96x96 pixels per image), derived from the stored aggregate precision/recall/specificity metrics.",
+  "total_test_pixels": 921600,
+  "U-Net": {
+    "TP": 106993,
+    "FP": 78139,
+    "FN": 27898,
+    "TN": 708570
+  },
+  "Attention U-Net": {
+    "TP": 94213,
+    "FP": 54914,
+    "FN": 40678,
+    "TN": 731795
+  }
+}
