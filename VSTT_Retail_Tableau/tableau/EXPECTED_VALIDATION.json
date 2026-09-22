@@ -1,0 +1,14 @@
+{
+  "rows": 9994,
+  "distinct_orders": 5009,
+  "customers": 793,
+  "years": [2014, 2015, 2016, 2017],
+  "regions": 4,
+  "states": 49,
+  "categories": 3,
+  "sub_categories": 17,
+  "sales": 2297200.86,
+  "profit": 286397.02,
+  "profit_ratio_pct": 12.47,
+  "average_order_value": 458.61
+}
